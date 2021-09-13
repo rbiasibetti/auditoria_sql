@@ -1,7 +1,7 @@
 # Auditoria MS SQL Sever
 Processo de auditoria na camada de banco de dados desenvolvido em 2019 abstarindo a necessidade de interceptor na camada de aplicação, dando maior flexibilidade e autonomia ao processo.
 
-O processo consiste em:
+O processo consiste em: 
  * Criação de função com finalidade de separar elementos contatenados oriundos da camada de aplicação. (SEPARAR)
  * Criação de base independente e destinada a retenção dos logs de auditoria. (base AUDITORIA)
  * Adequação de tipos de dados a fim de compatibilizar o processo de auditoria. (SP_AJUSTATIPOS)
